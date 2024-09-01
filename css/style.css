@@ -361,7 +361,6 @@ span {
 .education {
     padding: 100px 15px;
     background: var(--second-bg-color);
-    width: 100% !important;
 }
 
 .education h2 {
@@ -495,7 +494,7 @@ p {
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
