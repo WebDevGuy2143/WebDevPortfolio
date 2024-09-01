@@ -521,7 +521,7 @@ p {
     gap: 3rem;
 }
 
-.card {
+.container .card {
     margin: 0 2rem;
     background-color: var(--bg-color);
     border-radius: 10px;
