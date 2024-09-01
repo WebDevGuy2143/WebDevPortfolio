@@ -9,7 +9,6 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: "Nunito", sans-serif;
-    overflow-x: hidden !important;
 }
 
 :root {
@@ -21,8 +20,7 @@
 
 html {
     font-size: 60%;
-    overflow-x: hidden !important;
-    width: 100% !important;
+    overflow-x: hidden;
 }
 
 body {
@@ -495,8 +493,8 @@ p {
     line-height: 22px;
 }
 
-/* ::-webkit-scrollbar {
-    width: 10px;
+::-webkit-scrollbar {
+    width: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -506,7 +504,7 @@ p {
 ::-webkit-scrollbar-track {
     background-color: var(--bg-color);
     width: 50px;
-} */
+}
 
 .work {
     background: var(--bg-color);
@@ -521,7 +519,7 @@ p {
     gap: 3rem;
 }
 
-.container .card {
+.card {
     margin: 0 2rem;
     background-color: var(--bg-color);
     border-radius: 10px;
@@ -634,10 +632,6 @@ p {
     margin-bottom: 5rem;
 }
 
-.testimonials p {
-    color: white;
-}
-
 .testimonials-box img {
     width: 15rem;
     border-radius: 50%;
@@ -674,7 +668,7 @@ p {
     justify-content: center;
     text-align: center;
     gap: 1.5rem;
-    color: white !important;
+    color: white;
     transition: 0.4s ease-in-out;
     -webkit-transition: 0.4s ease-in-out;
     -moz-transition: 0.4s ease-in-out;
@@ -753,7 +747,7 @@ p {
 .footer {
     position: relative;
     bottom: 0;
-    width: 100% !important;
+    width: 100%;
     padding: 40px;
     background-color: var(--second-bg-color);
 }
@@ -841,18 +835,6 @@ p {
         font-size: 55%;
     }
 
-    .education {
-        width: 100% !important;
-    }
-
-    .testimonials {
-        width: 100% !important;
-    }
-
-    .footer {
-        width: 100% !important;
-    }
-
     .work .container {
         padding-bottom: 7rem;
         grid-template-columns: repeat(2, 1fr);
@@ -895,18 +877,6 @@ p {
         padding-bottom: 7rem;
         grid-template-columns: repeat(2, 1fr);
         margin: 0 5px;
-    }
-
-    .education {
-        width: 100% !important;
-    }
-
-    .testimonials {
-        width: 100% !important;
-    }
-
-    .footer {
-        width: 100% !important;
     }
 
     .testimonials .wrapper {
