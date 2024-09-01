@@ -493,7 +493,7 @@ p {
     line-height: 22px;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 10px;
 }
 
@@ -504,7 +504,7 @@ p {
 ::-webkit-scrollbar-track {
     background-color: var(--bg-color);
     width: 50px;
-}
+} */
 
 .work {
     background: var(--bg-color);
