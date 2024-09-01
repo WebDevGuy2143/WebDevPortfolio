@@ -361,6 +361,7 @@ span {
 .education {
     padding: 100px 15px;
     background: var(--second-bg-color);
+    width: 100%;
 }
 
 .education h2 {
@@ -618,6 +619,7 @@ p {
 
 .testimonials {
     background: var(--second-bg-color);
+    width: 100%;
 }
 
 .testimonials-box {
@@ -747,7 +749,7 @@ p {
 .footer {
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: !important 100%;
     padding: 40px;
     background-color: var(--second-bg-color);
 }
