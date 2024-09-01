@@ -361,7 +361,7 @@ span {
 .education {
     padding: 100px 15px;
     background: var(--second-bg-color);
-    width: 100%;
+    width: 100% !important;
 }
 
 .education h2 {
@@ -619,7 +619,7 @@ p {
 
 .testimonials {
     background: var(--second-bg-color);
-    width: 100%;
+    width: 100% !important;
 }
 
 .testimonials-box {
@@ -837,6 +837,18 @@ p {
         font-size: 55%;
     }
 
+    .education {
+        width: 100% !important;
+    }
+
+    .testimonials {
+        width: 100% !important;
+    }
+
+    .footer {
+        width: 100% !important;
+    }
+
     .work .container {
         padding-bottom: 7rem;
         grid-template-columns: repeat(2, 1fr);
@@ -879,6 +891,18 @@ p {
         padding-bottom: 7rem;
         grid-template-columns: repeat(2, 1fr);
         margin: 0 5px;
+    }
+
+    .education {
+        width: 100% !important;
+    }
+
+    .testimonials {
+        width: 100% !important;
+    }
+
+    .footer {
+        width: 100% !important;
     }
 
     .testimonials .wrapper {
