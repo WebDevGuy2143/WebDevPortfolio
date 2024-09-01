@@ -9,6 +9,7 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: "Nunito", sans-serif;
+    overflow-x: hidden !important;
 }
 
 :root {
