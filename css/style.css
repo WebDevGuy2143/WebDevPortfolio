@@ -580,14 +580,17 @@ p {
 
 .tag-blue {
     background-color: var(--main-color);
+    color: black;
 }
 
 .tag-purple {
     background-color: #805eed;
+    color: black;
 }
 
 .tag-green {
     background-color: #00d57e;
+    color: black;
 }
 
 .card-body p {
