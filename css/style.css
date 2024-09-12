@@ -211,9 +211,8 @@ span {
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: #00d57e;
-    /* box-shadow: 0 0 25px #20C423; */
-    box-shadow: 0 0 25px #00d57e;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
     border-radius: 4rem;
     -webkit-border-radius: 4rem;
     -moz-border-radius: 4rem;
