@@ -580,16 +580,16 @@ p {
     cursor: pointer;
 }
 
-.tag-teal {
-    background-color: #47bcd4;
+.tag-blue {
+    background-color: var(--main-color);
 }
 
 .tag-purple {
-    background-color: #5e76bf;
+    background-color: #805eed;
 }
 
-.tag-pink {
-    background-color: #cd5b9f;
+.tag-green {
+    background-color: #00d57e;
 }
 
 .card-body p {
