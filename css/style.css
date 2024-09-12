@@ -363,7 +363,7 @@ span {
 }
 
 .education h2 {
-    font-size: 6rem;
+    font-size: 6rem !important;
     margin-bottom: 5rem;
 }
 
@@ -614,7 +614,7 @@ p {
 .work h2 {
     margin-bottom: 5rem;
     color: white;
-    font-size: 6rem;
+    font-size: 6rem !important;
 }
 
 .testimonials {
@@ -707,7 +707,7 @@ p {
 .contact h2 {
     margin-bottom: 3rem;
     color: white;
-    font-size: 6rem;
+    font-size: 6rem !important;
 }
 
 .contact form {
