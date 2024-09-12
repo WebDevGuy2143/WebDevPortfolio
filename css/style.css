@@ -949,6 +949,15 @@ p {
 
     .work h2 {
         margin-bottom: 3rem;
+        font-size: 6rem !important;
+    }
+
+    .education h2 {
+        font-size: 6rem !important;
+    }
+
+    .contact h2 {
+        font-size: 6rem !important;
     }
 
     .work .container {
