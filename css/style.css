@@ -614,6 +614,7 @@ p {
 .work h2 {
     margin-bottom: 5rem;
     color: white;
+    font-size: 6rem;
 }
 
 .testimonials {
@@ -705,7 +706,8 @@ p {
 
 .contact h2 {
     margin-bottom: 3rem;
-    color: white
+    color: white;
+    font-size: 6rem;
 }
 
 .contact form {
