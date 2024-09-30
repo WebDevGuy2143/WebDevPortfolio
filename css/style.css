@@ -919,4 +919,8 @@ p {
     .figure {
         margin: 5px;
     }
+
+    .figure img{
+        width: 100%;
+    }
 }
