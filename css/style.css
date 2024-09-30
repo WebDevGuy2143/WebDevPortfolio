@@ -909,10 +909,11 @@ figcaption {
     .work .container {
         grid-template-columns: repeat(1, 1fr);
     }
+    .work .grid-container .portfolio-item {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .portfolio-item {
-        grid-template-columns: repeat(1, 1fr);
-    }
+   
 }
