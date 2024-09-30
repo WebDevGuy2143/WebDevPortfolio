@@ -913,10 +913,6 @@ figcaption {
 
 @media screen and (max-width: 768px) {
     .portfolio-item {
-        grid-template-columns: none;
-    }
-
-    .portfolio-item:nth-child(odd) {
-        margin-bottom: 20px;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
