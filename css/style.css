@@ -908,7 +908,7 @@ p {
     }
 
     .grid-container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
     }
 
     .portfolio-item {
@@ -918,14 +918,5 @@ p {
 
     .figure {
         margin: 0 0 20px;
-    }
-}
-@media (max-width: 768px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
-    
-    .portfolio-item {
-        max-width: 100%;
     }
 }
