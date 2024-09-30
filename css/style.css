@@ -911,6 +911,7 @@ figcaption {
     }
     .work .grid-container .portfolio-item {
         grid-template-columns: repeat(1, 1fr);
+        overflow-x: hidden;
     }
 }
 
