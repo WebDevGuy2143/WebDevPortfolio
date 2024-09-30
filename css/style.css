@@ -913,10 +913,10 @@ p {
 
     .portfolio-item {
         width: 100%;
-        margin: 0 0 20px;
+        margin: 20px;
     }
 
     .figure {
-        margin: 0 0 20px;
+        margin: 20px;
     }
 }
