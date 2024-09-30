@@ -909,8 +909,14 @@ figcaption {
     .work .container {
         grid-template-columns: repeat(1, 1fr);
     }
+}
 
+@media screen and (max-width: 768px) {
     .portfolio-item {
-        grid-template-columns: repeat(1, 1fr);
-      }
+        grid-template-columns: none;
+    }
+
+    .portfolio-item:nth-child(odd) {
+        margin-bottom: 20px;
+    }
 }
