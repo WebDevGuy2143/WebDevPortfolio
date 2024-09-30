@@ -515,7 +515,7 @@ p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 3rem;
 }
 
@@ -524,6 +524,7 @@ p {
     padding: 20px;
     border-radius: 5px;
     transition: transform 0.3s ease;
+    max-width: calc(50vw - 40px);
 }
 
 .portfolio-item:hover {
@@ -911,19 +912,20 @@ p {
     }
 
     .portfolio-item {
-        width: 50%;
+        width: 100%;
         margin: 0 0 20px;
     }
 
     .figure {
         margin: 0 0 20px;
     }
-
-    /* .work .grid-container {
-        grid-template-columns: repeat(1, 1fr);
+}
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
     }
-    .work .grid-container .portfolio-item{
-        width: 100%;
-        overflow-x: hidden;
-    } */
+    
+    .portfolio-item {
+        max-width: 100%;
+    }
 }
